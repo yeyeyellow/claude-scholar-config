@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "plugins": {
+    "github@claude-plugins-official": [
+      {
+        "scope": "project",
+        "installPath": "C:\\Users\\huangyaoyao\\.claude\\plugins\\cache\\claude-plugins-official\\github\\78497c524da3",
+        "version": "78497c524da3",
+        "installedAt": "2026-03-17T10:56:28.923Z",
+        "lastUpdated": "2026-03-17T10:56:28.923Z",
+        "gitCommitSha": "78497c524da3762865d47377357c30af5b50d522",
+        "projectPath": "C:\\Users\\huangyaoyao"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+# 敏感配置文件
+settings.json
+settings.local.json
+
+# 会话历史和日志
+history.jsonl
+sessions/
+logs/
+shell-snapshots/
+
+# 临时文件
+temp/
+tmp/
+*.tmp
+*.log
+
+# 缓存
+paste-cache/
+downloads/
+file-history/
+session-env/
+
+# 备份
+backups/
+
+# 任务状态
+tasks/
+
+# 项目记忆（可能包含敏感信息）
+projects/
+
+# 插件缓存
+plugins/cache/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
