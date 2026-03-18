@@ -116,6 +116,52 @@ Examples:
 
 See `memory/language-standards.md` for detailed documentation.
 
+### ⚠️ CRITICAL: Skill Usage Workflow (技能使用工作流)
+
+**ALWAYS evaluate and use skills before executing tasks directly**
+
+**3-Step Workflow**:
+
+1. **先评估技能** (Evaluate First)
+   - 收到任务后，先检查是否有相关技能
+   - 扫描可用技能列表，寻找匹配项
+   - 不要跳过这个步骤
+
+2. **主动激活** (Activate Proactively)
+   - 当有匹配技能时，立即使用 Skill 工具激活
+   - 输出: "Activating: [skill-name] — [reason]"
+   - 等待技能加载完成后再开始执行
+
+3. **遵循工作流** (Follow Workflow)
+   - 让技能来指导任务执行
+   - 不要跳过技能定义的工作流程
+   - 技能包含最佳实践和标准化步骤
+
+**Skill Matching Examples**:
+
+| Task | Should Use Skill | My Behavior |
+|------|-----------------|-------------|
+| 创建项目 | `create_project` | ❌ 直接操作 |
+| 写代码 | `tdd` | ❌ 跳过测试 |
+| 代码完成 | `code-review` | ❌ 跳过审查 |
+| Git 操作 | `git-workflow` | ✅ 使用了 |
+| 每日总结 | `daily` | ✅ 使用了 |
+| 研究初始化 | `research-init` | ✅ 使用了 |
+
+**Common Skills to Remember**:
+
+- `code-review` - 代码完成后必须使用
+- `tdd` - 写新功能时使用测试驱动开发
+- `git-workflow` - Git 操作使用标准工作流
+- `daily` - 每日工作总结
+- `obsidian-project-memory` - 研究项目知识管理
+- `architecture-design` - 新模块设计时使用
+
+**Enforcement**:
+- 系统提示 "Forced Skill Activation" 会自动扫描
+- 必须响应匹配的技能，不要输出 "No skills needed"
+- 技能优先于直接执行
+
 ### Research Workflow Standards
 
 **Literature Search**:

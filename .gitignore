@@ -28,6 +28,8 @@ tasks/
 
 # 项目记忆（可能包含敏感信息）
 projects/
+# 但允许 memory 子目录
+!projects/*/memory/
 
 # 插件缓存
 plugins/cache/
